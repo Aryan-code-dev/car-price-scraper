@@ -1,5 +1,5 @@
-import requests
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 import time
 from bs4 import BeautifulSoup
 driver = webdriver.Firefox(executable_path=r"C:\Users\Aryan Dande\Downloads\gecko\geckodriver.exe")
@@ -10,12 +10,14 @@ driver = webdriver.Firefox(executable_path=r"C:\Users\Aryan Dande\Downloads\geck
 #url = " https://www.ola.cars/listings/buy-used+city-is-pune"
 #url="https://www.spinny.com/used-cars-in-pune/s/"
 #url="https://www.carwale.com/used/cars-in-pune/"
-urls = ["https://www.cardekho.com/used-cars+in+pune" ,"https://www.cars24.com/buy-used-car?sort=P&storeCityId=2423&pinId=411001","https://www.spinny.com/used-cars-in-pune/s/"]
+urls = ["https://www.cardekho.com/used-cars+in+pune"]
 
-for j in range(3):
+for j in range(1):
     driver.maximize_window()
     driver.get(urls[j])
     time.sleep(2)  # Allow 2 seconds for the web page to open
+    driver.find_element(By.CSS_SELECTOR, "[title^='Petrol']").click()
+    driver.find_element(By.CSS_SELECTOR, "[title^='Manual']").click()
     scroll_pause_time = 1  # You can set your own pause time. My laptop is a bit slow so I use 1 sec
     screen_height = driver.execute_script("return window.screen.height;")  # get the screen height of the web
     i = 1
@@ -47,5 +49,3 @@ for j in range(3):
         for k in set3:
             print(k.getText())
 
-
-#print(soup.prettify())
