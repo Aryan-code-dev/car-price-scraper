@@ -1,0 +1,231 @@
+body {
+  background: center / cover repeat-y url("car1.jpg");
+}
+.middle {
+  display: flex;
+  text-align: center;
+  border: 2px solid rgb(8, 8, 139);
+  background-color: black;
+  border-radius: 25px;
+  margin-left: 40px;
+  flex-direction: column;
+  top: 40%;
+  left: 20%;
+  width: 20%;
+  margin-top: 75px;
+}
+
+.left {
+  float: left;
+}
+
+ul {
+  display: flex;
+  width: 100px;
+  margin: 20px;
+  border-radius: 25px;
+  height: 45px;
+}
+
+ul li {
+  padding-bottom: 18px;
+  margin-bottom: 35px;
+  padding-left: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  background-color: rgb(8, 8, 139);
+  color: white;
+  display: inline-block;
+}
+
+#info {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  row-gap: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+  background-color: black;
+  border: none;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid rgb(8, 8, 139);
+  margin: 10px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  outline: none;
+  width: 190px;
+  margin-left: 28px;
+}
+
+nav {
+  background-color: black(39, 204, 102);
+  display: flex;
+  flex-direction: row;
+  border: 2px solid blue;
+  border-radius: 25px;
+  color: white;
+  height: 50px;
+  margin-bottom: auto 20px;
+  position: sticky;
+  top: 0;
+}
+
+.box {
+  margin-top: 100px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.info1 {
+  display: inline-block;
+  height: 200px;
+  width: 250px;
+  color: white;
+  margin: 10px;
+  padding: 2px;
+  border-radius: 25px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.submit {
+  background-color: black;
+  border: 2px solid rgb(8, 8, 139);
+  border-radius: 5px;
+  color: white;
+  width: 20%;
+  margin-left: 107px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+}
+
+ul.navlist li {
+  list-style: none;
+  float: left;
+}
+.bahar li {
+  list-style: none;
+  float: right;
+}
+
+ul li a {
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: green;
+}
+
+.middata {
+  margin-left: 38%;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: white;
+  margin-top: -124px;
+  padding: 10px;
+}
+
+span {
+  color: green;
+}
+
+.info1 img {
+  width: 150px;
+  height: 150px;
+  padding: 3px;
+}
+
+h2 {
+  text-align: center;
+  margin-left: -462px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue;
+  border-radius: 25px;
+  padding: 10px;
+  margin: auto;
+  background-color: black;
+  width: 20%;
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  opacity: 0.85;
+}
+
+.container p a {
+  color: rgb(91, 153, 247);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container1 {
+  margin-bottom: 10px;
+}
+.container p {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+.container h1 {
+  background-color: black;
+}
+
+.container1 button {
+  background-color: black;
+  border: none;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid rgb(8, 8, 139);
+  margin: 10px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  outline: none;
+  width: 80px;
+  margin-left: 28px;
+}
+
+.container input[type="text"]:focus,
+.container input[type="number"]:focus,
+.container input[type="password"]:focus {
+  width: 220px;
+}
+
+.box1 {
+  padding: 10px;
+  border: 2px solid rgb(41, 41, 219);
+  width: 300px;
+  height: 250px;
+}
