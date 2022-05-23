@@ -1,91 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <title> PAGE TITLE</title>
+        <link rel="stylesheet" href="./static/style.css">
+    </head>
+    <body>
+    <div class="banner">
+        <div class="navbar">
+            <!-- <img src="logo.png" class="logo"> -->
+            <ul>
+                <li><a href="index">HOME</a></li>
+                <li><a href="Services.html">SERVICES</a></li>
+                <li><a href="about">ABOUT_US</a></li>
+                <li><a href="login">Login</a></li>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./static/style.css">
-</head>
-
-<body>
-    <!-- <div class="left">
-        <img src="car3.png" alt="" srcset="" class="img">
-    </div> -->
-    <!-- <h1>Dande ki car le ja yaar</h1> -->
-    <nav>
-        <ul class="navlist">
-            <li><a href="">Home</a></li>
-            <li><a href="">Contact_Us</a></li>
-            <li><a href="">About</a></li>
-            <li class="bahar"><a href="">Login</a></li>
-            <li class="bahar"><a href="">Signup</a></li>
-        </ul>
-    </nav>
-
-    <div class="middle">
-        <form name="passdata" action="." method="post">
-            <input type="text" placeholder="Car_name" id="first" name="first">
-            <input type="number" placeholder="Car_Year" id="second" name="second">
-            <input type="number" placeholder="Price" id="third" name="third">
-            <input type="text" placeholder="Car_Transmison" id="fourth">
-            <button class="submit" type="submit"   value="submit">Submit</button>
-        </form>
-    </div>
-
-    <div class="middata">
-        <h2>
-            Just <span>Buy</span> it <span>!</span><br>
-            Buy at most affordable <span>PRICE</span>
-        </h2>
-    </div>
-
-
-    <!-- <div class="box">
-        <div class="box1">
-            <div class="info1">
-                <img src="bmw1.jpeg" alt="" srcset="">
-            </div>
-            <button>Info</button>
+            </ul>
         </div>
-        <div class="box1">
-            <div class="info1">
-                <img src="wagonr1.jpeg" alt="" srcset="">
-            </div>
-            <button>Info</button>
-        </div>
-        <div class="box1">
-            <div class="info1">
-                <img src="harrier1.webp" alt="" srcset="">
-            </div>
-            <button>Info</button>
-        </div>
-    </div> -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-    <script>
-        function myfunction() {
+        <head>
+            <form name="passdata" method="post" action=".">
+            <title> Your Requirements </title>
+            <body>
+                <div class="main">
+                    <div class="register">
+                        <h2>Your Requirements</h2>
+                            <div class="new">
+                                <label>Car_Name</label>
+                                <br>
+                                <input type="text" name="fname" id="name" placeholder="Enter Car Name">
+                                <br><br>
+                                <label>Fuel_Type</label>  
+                                <br>
+                                <input type="text" name="fuel" id="name" placeholder="Enter Fuel_type">
+                                <br><br>
+                                <label>Transmission</label>
+                                <br>
+                                <input type="text" name="Transmission" id="name" placeholder="Enter Transmission Type">
+                                <br><br>
+                                <label>Email_Id</label>
+                                <br>
+                                <input type="email" name="mail_id" id="name" placeholder="Enter Email_id" >
+                                <br><br>
+                                
+                            </div>
+                            <div class="new1">
+                                <input type="submit" value="Submit" name="submit" id="submit">                 
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </body>
+        </head>
 
-
-
-            const p = document.getElementById("first").value
-            const q = document.getElementById("second").value
-
-            let dict_values = { p, q }
-
-            const s = JSON.stringify(dict_values)
-            console.log(s)
-            window.alert(s)
-            $.ajax({
-                url: "/test",
-                type: "POST",
-                contentType: "application.json",
-                data: josn.stringify(s)
-
-            })
-
-        } 
-    </script>
-</body>
-
+</div>
+        
+    </body>
 </html>
+
+
