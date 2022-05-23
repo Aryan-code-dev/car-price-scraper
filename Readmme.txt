@@ -1,0 +1,5 @@
+To use the program
+1.Run app.py
+2.Open the portal using any browser to give input
+3.Click on submit
+4.You will immediately receive the mail and everyday at 9:00 am
