@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(B1.jpg);
+    background-size: cover;
+    background-position: center;
+}   
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+} 
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.content-btn{
+    margin: 70px auto 0;
+}
+.content-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.content-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+.content-btn a:hover span{
+    width: 100%;
+}
+.content-btn a:hover{
+    color: #000;
+}
+.container{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.container h1{
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid palegoldenrod;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.box{
+    width: 95%;
+    margin: 22px 27px;
+    border-bottom: 2px solid palegoldenrod;
+}
+.box input{
+    width: 75%;
+    background: none;
+    padding: 5px 9px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.box i{
+    padding: 0 12px;
+    width: 29px;
+    text-align: center;
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid palegoldenrod;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+.btn:hover{
+    color: palegoldenrod;
+    background: black;
+}
+div.main{
+    width: 400px;
+    margin: 50px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.register{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(225, 225, 224, 0.3);
+    box-shadow: 2px 2px 15px;
+    /* rgba(0, 0, 0, 0.3); */
+    color: #fff;
+    padding-left: 40px;
+}
+form#register{
+    margin: 40px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px;
+    /* rgba(0,0,0,0.3); */
+}
+input#submit{
+    width: 100px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(225, 100, 0, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid;
+    /* rgba(255,255,255,0.3); */
+    box-shadow: 1px 1px 5px 
+    rgba(0, 0, 0, 0.3);
+    margin-left: 127px;
+    margin-bottom: 8px;
+}
+label.span.h2{
+    text-shadow: 1px 1px 5px;
+    /* rgba(0 ,0,0,0.3); */
+}
+.services{
+    margin: 90px auto;
+    text-align: center;
+}
+h1{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+h1:after{
+    content: '';
+    background: white;
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+
+}
+
+.new
+{
+    margin-left: 25px;
+    margin-bottom: 8px;
+}
+
+.new1{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+form
+{
+    margin-left: -772px;
+}
