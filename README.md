@@ -3,6 +3,8 @@
 1. https://www.cars24.com/
 2. https://www.cardekho.com/
 
+## How to run
+1. clone the repo and run app.py
 ### It takes certain parameters such as fuel,brand,kilometeres driven as input and gives a list of the available cars as input to the user through his mail id entered
 ## Preview of Home page
 ![image](https://github.com/Aryan-code-dev/car-price-scraper/assets/86364775/5ece4598-7551-45c6-aa61-e1a0993c3545)
